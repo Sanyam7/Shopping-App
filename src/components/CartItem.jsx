@@ -31,7 +31,7 @@ const CartItem = ({ item, itemIndex }) => {
             {/* Delete button */}
             <button
               onClick={removeFromCart}
-              className="text-red-500 hover:text-red-700 transition-transform duration-200 transform hover:scale-110"
+              className="text-red-500 hover:text-red-700 transition-transform duration-200 transform hover:scale-110 mt-3"
               title="Remove from cart"
             >
               <MdDeleteOutline size={24} />
